@@ -96,7 +96,7 @@ export class MorsePipe implements PipeTransform {
           this.morseCode += "- - . . ";
         break;
         case " ":
-          this.morseCode += " ";
+          this.morseCode += "/";
           break;
       }
 
